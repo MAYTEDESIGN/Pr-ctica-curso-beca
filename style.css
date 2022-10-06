@@ -1,0 +1,109 @@
+/*Selector universal se aplica a todo el archivo */
+ 
+* {
+        text-align: center;
+ /* background-color es para el color de fondo de la página*/
+ 
+        background-color: rgb(231, 183, 151);
+        /*Para tener en cuenta, hay etiquetas de línea y hay etiquetas de bloque. Las que son como párrafo, títulos y así, son de bloques y las de imágenes, videos y así, son de línea*/
+    
+        /*color es para el color de texto*/
+        /*color:rgb(44, 19, 102)*/ 
+        
+    
+      }
+     
+
+/*|Selector de etiqueta:| 
+Para dar estilo a una etiquena no anteponemos nada, colocaarmos la etiqueta directamente y aplicamos el estilo que queremos*/
+
+h1 {
+        color:chocolate;
+}
+
+h2 {
+        color:rgb(63, 30, 7);
+}
+
+h3 {
+        color:rgb(39, 48, 3);
+}
+
+p {
+
+        color:blueviolet;
+}
+
+/*|Selector de clase:| 
+Para dar estilo a una clase anteponemos un . */
+
+/*Para mostrar cómo se ve nuestro archivos con fuentes serrif o no serif. La fuente serif aparece por defecto en nuestro código fuente, no se muestra ningún cambio en nuestro navegador.
+/*
+        
+              /*Tipogracía casual, informal, y fresca*/
+           
+.noserif {
+  
+        font-family: sans-serif;
+        font-size: 30px; 
+        ont-weight: 800p
+       }
+
+.tamaño{
+
+       /*Tipogracía casual, informal, y fresca*/
+       font-family: sans-serif;
+       font-size: 30px; /*Aquí para cambiar el tamaño de la letra, puedo usar palabras reservadas como medium, large etc. o puedo usar números y colocar en pixeles ej: 200px*/
+       ont-weight: 800;
+}
+
+.grosor{
+
+       /*Tipogracía casual, informal, y fresca*/
+       font-family: sans-serif;
+       font-size: 30px; /*Aquí para cambiar el tamaño de la letra, puedo usar palabras reservadas como medium, large etc. o puedo usar números y colocar en pixeles ej: 200px*/
+       ont-weight: 800;
+       
+}
+
+/*Para dar estilo a un id anteponemos un #*/
+       
+#alinear{
+ text-align: center;
+
+}
+
+#estilo{
+
+      font-style:italic;  
+}
+
+/*Haciendo mi pagina responsive*/
+/* Set the background color of body to tan */
+body {
+       
+      }
+      
+      /* On screens that are 992px or less, set the background color to blue */
+      @media screen and (max-width: 992px) {
+        body {
+          background-color: blue;
+        }
+      }
+      
+      /* On screens that are 600px or less, set the background color to olive */
+      @media screen and (max-width: 600px) {
+        body {
+          background-color: olive;
+        }
+      }
+
+     
+
+       
+      video {
+        border: ridge blue;
+}
+img {
+        border: ridge blue;
+}
